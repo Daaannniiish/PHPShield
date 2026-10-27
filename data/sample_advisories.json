@@ -1,0 +1,35 @@
+
+{
+  "advisories": [
+    {
+      "id": "CVE-2026-109618",
+      "title": "PHP2Shell - Out-of-memory corruption",
+      "severity": "Critical",
+      "source": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "source_type": "official_vendor_advisory",
+      "last_checked": "2026-10-24",
+      "affected_branches_note": "PHP 8.2–8.5 have upstream fixed releases. PHP 8.1 and older require checking vendor backports or the published source backports.",
+      "affected_ranges": [
+        {"introduced": "8.2.0", "fixed": "8.2.35"},
+        {"introduced": "8.3.0", "fixed": "8.3.36"},
+        {"introduced": "8.4.0", "fixed": "8.4.27"},
+        {"introduced": "8.5.0", "fixed": "8.5.12"}
+      ]
+    },
+    {
+      "id": "CVE-2026-109619",
+      "title": "PHP2Shell - Stale global state",
+      "severity": "Critical",
+      "source": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "source_type": "official_vendor_advisory",
+      "last_checked": "2026-10-24",
+      "affected_branches_note": "PHP 8.2–8.5 have upstream fixed releases. PHP 8.1 and older require checking vendor backports or the published source backports.",
+      "affected_ranges": [
+        {"introduced": "8.2.0", "fixed": "8.2.35"},
+        {"introduced": "8.3.0", "fixed": "8.3.36"},
+        {"introduced": "8.4.0", "fixed": "8.4.27"},
+        {"introduced": "8.5.0", "fixed": "8.5.12"}
+      ]
+    }
+  ]
+}

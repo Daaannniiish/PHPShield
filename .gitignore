@@ -1,0 +1,22 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Test cache
+.pytest_cache/
+
+# Generated assessment reports
+reports/*.json
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
